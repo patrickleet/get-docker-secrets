@@ -1,0 +1,60 @@
+{
+  "name": "get-docker-secrets",
+  "version": "0.0.0-development",
+  "description": "an api to receive and ingest product exports",
+  "scripts": {
+    "commit": "git-cz",
+    "build": "babel src -d dist",
+    "lint": "eslint src __tests__",
+    "lint:fix": "eslint --fix src __tests__",
+    "test": "jest --config jest.json --coverage --verbose",
+    "test:watch": "jest --config jest.json --watch --coverage --verbose",
+    "precommit": "npm run lint:fix && npm run test",
+    "prepublish": "npm run build",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "main": "dist/main.js",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/patrickleet/get-docker-secrets.git"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "debug": "^3.1.0",
+    "expand-keys": "0.0.0-development",
+    "express": "^4.15.5",
+    "healthcheck-middleware": "^1.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "^20.0.3",
+    "babel-plugin-module-resolver": "^2.7.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-register": "^6.24.1",
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.0.0",
+    "eslint": "^4.2.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "husky": "^0.14.3",
+    "jest": "^21.1.0",
+    "llog": "0.0.13",
+    "regenerator-runtime": "^0.11.0",
+    "semantic-release": "^8.2.0"
+  },
+  "license": "ISC",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
