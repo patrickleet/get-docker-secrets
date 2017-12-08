@@ -5,9 +5,9 @@ describe('getSecrets', () => {
   it('returns secrets', () => {
     let secrets = getDockerSecrets(path.resolve(process.cwd(), '__test_secrets__'))
     expect(secrets).toEqual({
-      foo: "bar",
+      foo: 'bar',
       hello: {
-        world: "1"
+        world: '1'
       }
     })
   })
