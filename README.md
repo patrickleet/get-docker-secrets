@@ -1,4 +1,7 @@
+![Build Status](https://travis-ci.org/patrickleet/get-docker-secrets.svg?branch=master)
 # get-docker-secrets
+
+Small module with 100% test coverage for retrieving `docker secret`s as a JSON object.
 
 ```
 npm i get-docker-secrets
