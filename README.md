@@ -1,5 +1,6 @@
 # get-docker-secrets
 ![Build Status](https://travis-ci.org/patrickleet/get-docker-secrets.svg?branch=master)
+[![codecov](https://codecov.io/gh/patrickleet/get-docker-secrets/branch/master/graph/badge.svg)](https://codecov.io/gh/patrickleet/get-docker-secrets)
 [![Greenkeeper badge](https://badges.greenkeeper.io/patrickleet/get-docker-secrets.svg)](https://greenkeeper.io/)
 
 Tiny module for retrieving `docker secret`s as a JSON object.
