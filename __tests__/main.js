@@ -11,4 +11,10 @@ describe('getSecrets', () => {
       }
     })
   })
+
+  it('returns empty object if file does not exist', () => {
+    // default path is /run/secrets/
+    let secrets = getDockerSecrets()
+    expect(secrets).toEqual({})
+  })
 })
