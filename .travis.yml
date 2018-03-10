@@ -5,9 +5,9 @@ cache:
 notifications:
   email: false
 node_js:
+  - '9'
   - '8'
   - '6'
-  - '4'
 before_script:
   - npm run lint
   - npm prune
