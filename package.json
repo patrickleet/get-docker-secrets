@@ -23,7 +23,7 @@
     "url": "https://github.com/patrickleet/get-docker-secrets.git"
   },
   "dependencies": {
-    "expand-keys": "0.0.2"
+    "expand-keys": "0.0.3"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
