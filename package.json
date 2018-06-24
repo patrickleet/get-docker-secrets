@@ -44,7 +44,7 @@
     "eslint-plugin-standard": "^3.0.1",
     "husky": "^0.14.3",
     "jest": "^22.4.2",
-    "regenerator-runtime": "^0.11.0",
+    "regenerator-runtime": "^0.12.0",
     "semantic-release": "^15.0.2",
     "travis-deploy-once": "^5.0.0"
   },
