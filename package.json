@@ -45,7 +45,7 @@
     "husky": "2.5.0",
     "jest": "24.8.0",
     "regenerator-runtime": "0.13.2",
-    "semantic-release": "15.13.16",
+    "semantic-release": "15.13.31",
     "travis-deploy-once": "5.0.11"
   },
   "license": "ISC",
