@@ -4,12 +4,8 @@
     "es6": true
   },
   "extends": "standard",
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
   "parserOptions": {
-    "ecmaFeatures": {
-      "experimentalObjectRestSpread": true,
-      "jsx": true
-    },
     "sourceType": "module"
   },
   "plugins": [],
