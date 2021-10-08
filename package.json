@@ -3,16 +3,14 @@
   "version": "0.0.0-development",
   "description": "Tiny module for retrieving docker secrets as a JSON object, that expands keys with dots.like.this",
   "scripts": {
-    "commit": "git-cz",
     "build": "babel src -d dist",
-    "lint": "eslint src __tests__",
     "lint:fix": "eslint --fix src __tests__",
-    "test": "jest --config jest.json --coverage --verbose",
-    "test:watch": "jest --config jest.json --watch --coverage --verbose",
+    "lint": "eslint src __tests__",
+    "prepare": "husky install",
     "prepublish": "npm run build",
     "semantic-release": "semantic-release",
-    "travis-deploy-once": "travis-deploy-once",
-    "prepare": "husky install"
+    "test:watch": "jest --config jest.json --watch --coverage --verbose",
+    "test": "jest --config jest.json --coverage --verbose"
   },
   "main": "dist/main.js",
   "files": [
