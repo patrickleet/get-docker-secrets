@@ -3,7 +3,7 @@ import { getDockerSecrets } from 'main'
 
 describe('getSecrets', () => {
   it('returns secrets', () => {
-    let secrets = getDockerSecrets(path.resolve(process.cwd(), '__test_secrets__'))
+    const secrets = getDockerSecrets(path.resolve(process.cwd(), '__test_secrets__'))
     expect(secrets).toEqual({
       foo: 'bar',
       hello: {
@@ -14,7 +14,7 @@ describe('getSecrets', () => {
 
   it('returns empty object if file does not exist', () => {
     // default path is /run/secrets/
-    let secrets = getDockerSecrets()
+    const secrets = getDockerSecrets()
     expect(secrets).toEqual({})
   })
 })
