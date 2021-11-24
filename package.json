@@ -41,7 +41,7 @@
     "husky": "7.0.4",
     "jest": "27.3.1",
     "lint-staged": "12.1.2",
-    "semantic-release": "18.0.0"
+    "semantic-release": "18.0.1"
   },
   "license": "ISC",
   "config": {
