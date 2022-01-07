@@ -40,7 +40,7 @@
     "eslint-plugin-standard": "4.1.0",
     "husky": "7.0.4",
     "jest": "27.4.7",
-    "lint-staged": "12.1.6",
+    "lint-staged": "12.1.7",
     "semantic-release": "18.0.1"
   },
   "license": "ISC",
