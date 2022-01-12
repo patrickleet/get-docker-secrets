@@ -28,7 +28,7 @@
     "@babel/core": "7.16.7",
     "@babel/eslint-parser": "7.16.5",
     "@babel/preset-env": "7.16.8",
-    "@babel/register": "7.16.8",
+    "@babel/register": "7.16.9",
     "babel-jest": "27.4.6",
     "babel-plugin-module-resolver": "4.1.0",
     "codecov": "3.8.3",
