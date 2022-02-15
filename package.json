@@ -24,8 +24,8 @@
     "expand-keys": "1.0.4"
   },
   "devDependencies": {
-    "@babel/cli": "7.17.0",
-    "@babel/core": "7.17.2",
+    "@babel/cli": "7.17.3",
+    "@babel/core": "7.17.3",
     "@babel/eslint-parser": "7.17.0",
     "@babel/preset-env": "7.16.11",
     "@babel/register": "7.17.0",
