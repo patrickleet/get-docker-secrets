@@ -32,7 +32,7 @@
     "babel-jest": "27.5.1",
     "babel-plugin-module-resolver": "4.1.0",
     "codecov": "3.8.3",
-    "eslint": "8.1.0",
+    "eslint": "8.57.1",
     "eslint-config-standard": "16.0.3",
     "eslint-plugin-import": "2.25.4",
     "eslint-plugin-node": "11.1.0",
